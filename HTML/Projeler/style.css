@@ -1,0 +1,80 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    background-color: rgb(165, 204, 79);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    color: rgb(191, 253, 91);
+}
+
+.first-section-p {
+    color: rgb(183, 234, 87);
+}
+
+.first-section-button {
+    background-color: rgb(70, 120, 178);
+    margin-bottom: 50px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    border-color: rgb(70, 120, 178);
+    text-decoration: none;
+}
+
+.second-section-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.second-section-h2 {
+    color: rgb(20, 20, 20);
+    margin-right: 10px;
+}
+
+.second-section-span {
+    color: rgb(160, 160, 160);
+}
+
+.second-section-p {
+    margin: 0 100px 20px 100px;
+    text-align: center;
+    color: rgb(160, 160, 160);
+}
+    
+
+.second-section-second-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+
+.article {
+    margin-right: 10px;
+}
+
+.article-img {
+    width: 100%;
+    height: 300px;
+}
+
+.article-title {
+    color: rgb(90, 135, 190);
+}
+
+.article-text {
+    color: rgb(131, 131, 131);
+}
