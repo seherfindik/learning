@@ -95,8 +95,9 @@ footer {
     flex-direction: column;
     background-color: #f2f2f2;
     position: relative;
-    margin-top: 100px;
+    border border-bottom: 100px;
 }
+
 .footer-country {
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
