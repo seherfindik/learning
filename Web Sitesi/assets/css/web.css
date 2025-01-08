@@ -43,7 +43,6 @@ section {
 } 
 
  /* -------HEADER------- */
-
  header {
      background: rgb(44, 37, 37);
      border-bottom: 1px solid rgba(238, 238, 238, 0.801);
@@ -84,7 +83,6 @@ section {
  }
 
   /* -------ANASAYFA------- */
-
 .inner_anasayfa{  
     display: flex;
     align-items: center;
@@ -167,7 +165,6 @@ section {
 }
 
 /* -------SERTİFİKALARIM------- */
-
 .inner_courses {
      display: flex;
      flex-wrap: wrap;
@@ -206,7 +203,6 @@ section {
 }
 
 /* -------BAŞARILAR------- */
-
 .inner_achivement {
    display: flex;
    flex-wrap: wrap;
@@ -266,7 +262,6 @@ section {
 } 
 
 /* -------HAKKIMDA------- */
-
 .inner_testi {
       display: flex;
       flex-wrap: wrap;
@@ -302,7 +297,6 @@ section {
 }
 
 /* -------İLETİŞİM------- */
-
 .inner_contact {
     display: flex;
     flex-wrap: wrap;  
@@ -358,7 +352,6 @@ section {
 }
 
 /* -------FOOTER------- */
-
 .footer {
     background: #24292D;
     padding: 60px 0px 20px 0px;
