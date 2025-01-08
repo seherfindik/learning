@@ -264,3 +264,98 @@ section {
 .sd_4 {
     background: #2F363E;
 } 
+
+/* -------HAKKIMDA------- */
+
+.inner_testi {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto;
+      color: #fff;
+}
+
+.child_testi {
+    flex-basis: 46%;
+    margin-bottom: 30px;
+}
+
+.testi_img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.testi_img img {
+     border-radius: 50%;
+}
+
+.test_higlight {
+    color: #24CAAC;
+    margin: 10px 0 ;
+    display: inline-block;  
+}
+
+.test_higlight:hover {
+      text-decoration: underline;
+}
+
+/* -------İLETİŞİM------- */
+
+.inner_contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 60px;
+    width: 40%; 
+    padding: 60px;  
+}
+
+.child_contact {
+    flex-basis: 45%;
+    margin: 100px 100px;
+    padding: 60px;
+}
+
+.child_contact form {
+     padding: 30px 10px;
+     background: #2F363E ;
+     border-radius: 5px;
+}
+
+.child_contact form input,textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+    background: #24292D;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    transition: .3s ease-in;
+}
+
+.child_contact form input,textarea:focus {
+    color: #fff;
+}
+
+.child_contact form input:focus {
+   letter-spacing: 1px;   
+}
+
+.child_contact form textarea:focus {
+    letter-spacing: 1px; 
+} 
+
+.child_contact form input:last-child {
+    margin-bottom: 0px;
+    background: #24CAAC;
+    border: 1px solid #24CAAC;
+    transition: .3s;
+}
+
+.child_contact form input:last-child:hover {
+    background: transparent;
+    color: #fff;
+}
