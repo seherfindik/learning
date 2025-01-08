@@ -20,7 +20,7 @@ img {
 }
 
 section {
-    padding: 100x 0px;
+    padding: 100px 0px;
     background-color: #122e44;
 }
 
@@ -216,7 +216,7 @@ section {
    margin: 0 auto; 
 }
 
-..child_achivement {
+.child_achivement {
     flex-basis: 40%;
 }
 
