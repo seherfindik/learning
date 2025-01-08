@@ -310,7 +310,8 @@ section {
     justify-content: space-between;
     margin: 60px 60px;
     width: 40%; 
-    padding: 60px;  
+    padding: 60px;
+  
 }
 
 .child_contact {
@@ -358,4 +359,21 @@ section {
 .child_contact form input:last-child:hover {
     background: transparent;
     color: #fff;
+}
+
+/* -------FOOTER------- */
+
+.footer {
+    background: #24292D;
+    padding: 60px 0px 20px 0px;
+    color: #fff;
+}
+
+.inner_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 80%;
 }
